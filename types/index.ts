@@ -20,7 +20,7 @@ export interface Skill {
   icon: string;
   level: number;
   description: string;
-  category: "frontend" | "backend" | "styling" | "tools";
+  category: "frontend" | "backend" | "styling" | "tools " | "ai" | "tools";
 }
 
 export interface Experience {

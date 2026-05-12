@@ -28,6 +28,14 @@ export const stats: Stat[] = [
 
 export const skills: Skill[] = [
   {
+    name: "AI",
+    icon: "SiOpenai",
+    level: 80,
+    description:
+      "Integrating AI APIs for content generation, design assistance, and development workflows.",
+    category: "ai"
+  },
+  {
     name: "Vue.js / Nuxt.js",
     icon: "SiVuedotjs",
     level: 95,
@@ -38,7 +46,7 @@ export const skills: Skill[] = [
   {
     name: "React / Next.js",
     icon: "SiReact",
-    level: 90,
+    level: 70,
     description:
       "Developing modern UIs with hooks, server components, and App Router.",
     category: "frontend"
@@ -62,7 +70,7 @@ export const skills: Skill[] = [
   {
     name: "Node.js",
     icon: "SiNodedotjs",
-    level: 75,
+    level: 55,
     description: "Express APIs, authentication, and server-side logic.",
     category: "backend"
   },
@@ -110,6 +118,13 @@ export const skills: Skill[] = [
     level: 80,
     description: "Build tooling, bundling optimization, and module federation.",
     category: "tools"
+  },
+  {
+    name:"mySQL",
+    icon: "SiMysql",
+    level: 80,
+    description: "Database design, query optimization, and data management.",
+    category: "backend"
   }
 ];
 
