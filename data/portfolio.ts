@@ -115,6 +115,23 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
+    id: "americano",
+    title: "Americano Dashboard",
+    description:
+      "Coffee shop management dashboard with react and next.js, and Tailwind.",
+    longDescription:
+      "A modern coffee shop management dashboard built with React and Next.js, and Tailwind CSS. Features real-time order tracking, revenue analytics, customer management, intuitive dark-themed UI, and top-selling product insights.",
+    image: "/images/americano-dashboard.png",
+    tags: [
+      {name: "React / Next.js", color: "react"},
+      {name: "TypeScript", color: "typescript"},
+      {name: "Tailwind", color: "tailwind"}
+    ],
+    liveUrl: "https://amirecano.netlify.app/",
+    githubUrl: "https://github.com/yaman-ft/amirecano",
+    category: "React"
+  },
+  {
     id: "announcer",
     title: "Announcer Market",
     description:
@@ -168,41 +185,8 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/yaman-ft",
     category: "Vue"
   },
-  {
-    id: "americano",
-    title: "Americano Dashboard",
-    description:
-      "Coffee shop management dashboard with react and next.js, and Tailwind.",
-    longDescription:
-      "A modern coffee shop management dashboard built with React and Next.js, and Tailwind CSS. Features real-time order tracking, revenue analytics, customer management, intuitive dark-themed UI, and top-selling product insights.",
-    image: "/images/americano-dashboard.png",
-    tags: [
-      {name: "React / Next.js", color: "react"},
-      {name: "TypeScript", color: "typescript"},
-      {name: "Tailwind", color: "tailwind"}
-    ],
-    liveUrl: "https://amirecano.netlify.app/",
-    githubUrl: "https://github.com/yaman-ft/amirecano",
-    category: "React"
-  },
-  {
-    id: "portfolio",
-    title: "Developer Portfolio",
-    description:
-      "Personal portfolio built with Next.js, TypeScript, and Framer Motion.",
-    longDescription:
-      "A modern, futuristic portfolio website showcasing projects, skills, and experience. Built with Next.js 14 App Router, TypeScript, Tailwind CSS, and Framer Motion for smooth animations. Features dark mode, custom cursor, particles background, and glassmorphism design.",
-    image: "/images/portfolio.jpg",
-    tags: [
-      {name: "Next.js", color: "next"},
-      {name: "TypeScript", color: "typescript"},
-      {name: "Tailwind", color: "tailwind"},
-      {name: "React", color: "react"}
-    ],
-    liveUrl: "",
-    githubUrl: "https://github.com/yaman-ft",
-    category: "React"
-  },
+  
+
   {
     id: "task-manager",
     title: "Task Manager Pro",
