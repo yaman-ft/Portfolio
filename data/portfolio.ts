@@ -1,4 +1,4 @@
-import { Project, Skill, Experience, Certification, Stat } from "@/types";
+import {Project, Skill, Experience, Certification, Stat} from "@/types";
 
 export const personalInfo = {
   name: "Yaman Abo Khalil",
@@ -15,30 +15,102 @@ export const personalInfo = {
     twitter: "https://x.com/yaman_ft",
     gitlab: "https://gitlab.com/yaman.abokhalil",
     stackoverflow: "https://stackoverflow.com/users/24838601/yaman-abokhalil",
-    upwork: "https://www.upwork.com/freelancers/~yamanabokhalil",
-  },
+    upwork: "https://www.upwork.com/freelancers/~yamanabokhalil"
+  }
 };
 
 export const stats: Stat[] = [
-  { label: "Years Experience", value: 4, suffix: "+" },
-  { label: "Projects Completed", value: 20, suffix: "+" },
-  { label: "Happy Clients", value: 15, suffix: "+" },
-  { label: "Technologies", value: 25, suffix: "+" },
+  {label: "Years Experience", value: 4, suffix: "+"},
+  {label: "Projects Completed", value: 20, suffix: "+"},
+  {label: "Happy Clients", value: 15, suffix: "+"},
+  {label: "Technologies", value: 25, suffix: "+"}
 ];
 
 export const skills: Skill[] = [
-  { name: "Vue.js / Nuxt.js", icon: "SiVuedotjs", level: 95, description: "Building reactive SPAs and SSR apps with Composition API and Pinia.", category: "frontend" },
-  { name: "React / Next.js", icon: "SiReact", level: 90, description: "Developing modern UIs with hooks, server components, and App Router.", category: "frontend" },
-  { name: "Angular", icon: "SiAngular", level: 92, description: "Enterprise apps with RxJS, NgRx, PrimeNG, and standalone components.", category: "frontend" },
-  { name: "PHP / Laravel", icon: "SiLaravel", level: 85, description: "RESTful APIs, Eloquent ORM, Livewire, and TALL stack development.", category: "backend" },
-  { name: "Node.js", icon: "SiNodedotjs", level: 75, description: "Express APIs, authentication, and server-side logic.", category: "backend" },
-  { name: "Tailwind CSS", icon: "SiTailwindcss", level: 95, description: "Utility-first responsive designs with custom animations and dark mode.", category: "styling" },
-  { name: "SCSS / CSS3", icon: "SiSass", level: 90, description: "Advanced layouts, animations, and maintainable style architectures.", category: "styling" },
-  { name: "Bootstrap", icon: "SiBootstrap", level: 85, description: "Rapid prototyping and responsive grid systems.", category: "styling" },
-  { name: "Git & GitHub", icon: "SiGit", level: 90, description: "Version control, CI/CD, code review, and collaboration workflows.", category: "tools" },
-  { name: "Docker", icon: "SiDocker", level: 70, description: "Containerized development environments and deployment pipelines.", category: "tools" },
-  { name: "Figma", icon: "SiFigma", level: 75, description: "UI/UX design, prototyping, and design-to-code translation.", category: "tools" },
-  { name: "Vite / Webpack", icon: "SiVite", level: 80, description: "Build tooling, bundling optimization, and module federation.", category: "tools" },
+  {
+    name: "Vue.js / Nuxt.js",
+    icon: "SiVuedotjs",
+    level: 95,
+    description:
+      "Building reactive SPAs and SSR apps with Composition API and Pinia.",
+    category: "frontend"
+  },
+  {
+    name: "React / Next.js",
+    icon: "SiReact",
+    level: 90,
+    description:
+      "Developing modern UIs with hooks, server components, and App Router.",
+    category: "frontend"
+  },
+  {
+    name: "Angular",
+    icon: "SiAngular",
+    level: 92,
+    description:
+      "Enterprise apps with RxJS, NgRx, PrimeNG, and standalone components.",
+    category: "frontend"
+  },
+  {
+    name: "PHP / Laravel",
+    icon: "SiLaravel",
+    level: 85,
+    description:
+      "RESTful APIs, Eloquent ORM, Livewire, and TALL stack development.",
+    category: "backend"
+  },
+  {
+    name: "Node.js",
+    icon: "SiNodedotjs",
+    level: 75,
+    description: "Express APIs, authentication, and server-side logic.",
+    category: "backend"
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "SiTailwindcss",
+    level: 95,
+    description:
+      "Utility-first responsive designs with custom animations and dark mode.",
+    category: "styling"
+  },
+  {
+    name: "SCSS / CSS3",
+    icon: "SiSass",
+    level: 90,
+    description:
+      "Advanced layouts, animations, and maintainable style architectures.",
+    category: "styling"
+  },
+  {
+    name: "Bootstrap",
+    icon: "SiBootstrap",
+    level: 85,
+    description: "Rapid prototyping and responsive grid systems.",
+    category: "styling"
+  },
+  {
+    name: "Git & GitHub",
+    icon: "SiGit",
+    level: 90,
+    description:
+      "Version control, CI/CD, code review, and collaboration workflows.",
+    category: "tools"
+  },
+  {
+    name: "Figma",
+    icon: "SiFigma",
+    level: 75,
+    description: "UI/UX design, prototyping, and design-to-code translation.",
+    category: "tools"
+  },
+  {
+    name: "Vite / Webpack",
+    icon: "SiVite",
+    level: 80,
+    description: "Build tooling, bundling optimization, and module federation.",
+    category: "tools"
+  }
 ];
 
 export const projects: Project[] = [
@@ -162,8 +234,9 @@ export const experiences: Experience[] = [
       "Developing complex UI components with PrimeNG, Angular Material, and custom design systems.",
       "Applying RxJS extensively for reactive programming and asynchronous data handling.",
       "Using NgRx for predictable and scalable state management across large applications.",
+      "Creating websites with AI-assisted workflows and applying prompt engineering to optimize content, design, and development iterations."
     ],
-    icon: "💼",
+    icon: "💼"
   },
   {
     id: "exp-2",
@@ -174,10 +247,10 @@ export const experiences: Experience[] = [
       "Developed modern and responsive user interfaces using Vue.js and Tailwind CSS.",
       "Contributed to back-end development using Laravel, implementing new features and improving existing logic.",
       "Collaborated on internal systems and platforms aimed at improving organizational workflows.",
-      "Ensured clean UI/UX implementation and smooth front-end/back-end integration.",
+      "Ensured clean UI/UX implementation and smooth front-end/back-end integration."
     ],
-    icon: "🏗️",
-  },
+    icon: "🏗️"
+  }
 ];
 
 export const certifications: Certification[] = [
@@ -186,41 +259,34 @@ export const certifications: Certification[] = [
     name: "Angular – The Complete Guide",
     issuer: "Udemy",
     date: "2024",
-    url: "",
+    url: ""
   },
   {
     id: "cert-2",
     name: "Laravel 10 Certification",
     issuer: "Laravel",
     date: "2024",
-    url: "",
+    url: ""
   },
   {
     id: "cert-3",
     name: "Vue.js 3 Advanced Patterns",
     issuer: "Vue Mastery",
     date: "2023",
-    url: "",
+    url: ""
   },
   {
     id: "cert-4",
     name: "React & Next.js Masterclass",
     issuer: "Frontend Masters",
-    date: "2025",
-    url: "",
+    date: "2026",
+    url: ""
   },
   {
     id: "cert-5",
     name: "TypeScript Advanced Concepts",
     issuer: "Pluralsight",
     date: "2024",
-    url: "",
-  },
-  {
-    id: "cert-6",
-    name: "Docker & Kubernetes Bootcamp",
-    issuer: "Udemy",
-    date: "2023",
-    url: "",
-  },
+    url: ""
+  }
 ];
