@@ -7,7 +7,7 @@ export const personalInfo = {
   email: "yaman.abokhalil@gmail.com",
   phone: "+963995534307",
   location: "Lattakia, Syria",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/avatar.png",
   resumeUrl: "",
   social: {
     github: "https://github.com/yaman-ft",

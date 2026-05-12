@@ -133,9 +133,11 @@ export function Hero() {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full gradient-border p-1">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-primary-900 via-secondary-900 to-primary-800 flex items-center justify-center overflow-hidden">
-                  <span className="text-6xl md:text-7xl font-bold gradient-text">
-                    Y
-                  </span>
+                  <img
+                    src={personalInfo.avatar}
+                    alt={personalInfo.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
 
