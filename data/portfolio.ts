@@ -172,9 +172,9 @@ export const projects: Project[] = [
     id: "americano",
     title: "Americano Dashboard",
     description:
-      "Coffee shop management dashboard with Angular, PrimeNG, and Tailwind.",
+      "Coffee shop management dashboard with react and next.js, and Tailwind.",
     longDescription:
-      "A modern coffee shop management dashboard built with Angular 18, PrimeNG, and Tailwind CSS. Features real-time order tracking, revenue analytics, customer management, intuitive dark-themed UI, and top-selling product insights.",
+      "A modern coffee shop management dashboard built with React and Next.js, and Tailwind CSS. Features real-time order tracking, revenue analytics, customer management, intuitive dark-themed UI, and top-selling product insights.",
     image: "/images/americano-dashboard.png",
     tags: [
       {name: "React / Next.js", color: "react"},
