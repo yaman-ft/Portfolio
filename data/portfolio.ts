@@ -122,7 +122,7 @@ export const skills: Skill[] = [
   {
     name:"mySQL",
     icon: "SiMysql",
-    level: 80,
+    level: 90,
     description: "Database design, query optimization, and data management.",
     category: "backend"
   }
