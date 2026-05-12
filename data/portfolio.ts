@@ -1,0 +1,215 @@
+import { Project, Skill, Experience, Certification, Stat } from "@/types";
+
+export const personalInfo = {
+  name: "Yaman Abo Khalil",
+  titles: ["Frontend Architect", "Full Stack Developer", "Tech Lead"],
+  bio: "I build scalable, high-performance web applications with modern frameworks and clean architecture.",
+  email: "yaman.abokhalil@gmail.com",
+  phone: "+963995534307",
+  location: "Lattakia, Syria",
+  avatar: "/images/avatar.jpg",
+  resumeUrl: "",
+  social: {
+    github: "https://github.com/yaman-ft",
+    linkedin: "https://www.linkedin.com/in/yaman-abokhalil",
+    twitter: "https://x.com/yaman_ft",
+    gitlab: "https://gitlab.com/yaman.abokhalil",
+    stackoverflow: "https://stackoverflow.com/users/24838601/yaman-abokhalil",
+    upwork: "https://www.upwork.com/freelancers/~yamanabokhalil",
+  },
+};
+
+export const stats: Stat[] = [
+  { label: "Years Experience", value: 4, suffix: "+" },
+  { label: "Projects Completed", value: 20, suffix: "+" },
+  { label: "Happy Clients", value: 15, suffix: "+" },
+  { label: "Technologies", value: 25, suffix: "+" },
+];
+
+export const skills: Skill[] = [
+  { name: "Vue.js / Nuxt.js", icon: "SiVuedotjs", level: 95, description: "Building reactive SPAs and SSR apps with Composition API and Pinia.", category: "frontend" },
+  { name: "React / Next.js", icon: "SiReact", level: 90, description: "Developing modern UIs with hooks, server components, and App Router.", category: "frontend" },
+  { name: "Angular", icon: "SiAngular", level: 92, description: "Enterprise apps with RxJS, NgRx, PrimeNG, and standalone components.", category: "frontend" },
+  { name: "PHP / Laravel", icon: "SiLaravel", level: 85, description: "RESTful APIs, Eloquent ORM, Livewire, and TALL stack development.", category: "backend" },
+  { name: "Node.js", icon: "SiNodedotjs", level: 75, description: "Express APIs, authentication, and server-side logic.", category: "backend" },
+  { name: "Tailwind CSS", icon: "SiTailwindcss", level: 95, description: "Utility-first responsive designs with custom animations and dark mode.", category: "styling" },
+  { name: "SCSS / CSS3", icon: "SiSass", level: 90, description: "Advanced layouts, animations, and maintainable style architectures.", category: "styling" },
+  { name: "Bootstrap", icon: "SiBootstrap", level: 85, description: "Rapid prototyping and responsive grid systems.", category: "styling" },
+  { name: "Git & GitHub", icon: "SiGit", level: 90, description: "Version control, CI/CD, code review, and collaboration workflows.", category: "tools" },
+  { name: "Docker", icon: "SiDocker", level: 70, description: "Containerized development environments and deployment pipelines.", category: "tools" },
+  { name: "Figma", icon: "SiFigma", level: 75, description: "UI/UX design, prototyping, and design-to-code translation.", category: "tools" },
+  { name: "Vite / Webpack", icon: "SiVite", level: 80, description: "Build tooling, bundling optimization, and module federation.", category: "tools" },
+];
+
+export const projects: Project[] = [
+  {
+    id: "announcer",
+    title: "Announcer Market",
+    description: "Discount & Coupon Management Platform built with Angular and PrimeNG.",
+    longDescription: "A comprehensive platform for managing company discounts and coupons with secure workflows and user-friendly interfaces. Features include real-time coupon generation, usage tracking, analytics dashboard, and role-based access control.",
+    image: "/images/announcer.jpg",
+    tags: [
+      { name: "Angular", color: "angular" },
+      { name: "PrimeNG", color: "angular" },
+      { name: "TypeScript", color: "typescript" },
+      { name: "Laravel", color: "laravel" },
+    ],
+    liveUrl: "https://announcer.market/",
+    githubUrl: "https://github.com/yaman-ft",
+    category: "Angular",
+  },
+  {
+    id: "almotthadon",
+    title: "ALMOTTHEDON",
+    description: "E-Commerce platform built with Vue.js and Vuex with full cart operations.",
+    longDescription: "A full-featured e-commerce website developed with Vue.js and Vuex state management. Features include product browsing, shopping cart CRUD operations, user authentication, order management, and responsive design.",
+    image: "/images/ecommerce.jpg",
+    tags: [
+      { name: "Vue.js", color: "vue" },
+      { name: "Vuex", color: "vue" },
+      { name: "JavaScript", color: "typescript" },
+      { name: "Tailwind", color: "tailwind" },
+    ],
+    liveUrl: "https://commerce-ft.netlify.app/",
+    githubUrl: "https://github.com/yaman-ft",
+    category: "Vue",
+  },
+  {
+    id: "saas",
+    title: "SaaS Platform",
+    description: "Multi-tenant delivery SaaS platform built with Nuxt.js and TypeScript.",
+    longDescription: "A Software-as-a-Service platform for delivery management built with Nuxt.js and TypeScript. Features multi-tenant architecture, real-time tracking, payment integration, and comprehensive admin dashboard.",
+    image: "/images/saas.jpg",
+    tags: [
+      { name: "Nuxt", color: "vue" },
+      { name: "TypeScript", color: "typescript" },
+      { name: "Vuex", color: "vue" },
+      { name: "Tailwind", color: "tailwind" },
+    ],
+    liveUrl: "https://agent-69a6afc9cce3d6c70ec5616a--saas-ft.netlify.app/",
+    githubUrl: "https://github.com/yaman-ft",
+    category: "Vue",
+  },
+  {
+    id: "americano",
+    title: "Americano Dashboard",
+    description: "Coffee shop management dashboard with Angular, PrimeNG, and Tailwind.",
+    longDescription: "A modern coffee shop management dashboard built with Angular 18, PrimeNG, and Tailwind CSS. Features real-time order tracking, revenue analytics, customer management, intuitive dark-themed UI, and top-selling product insights.",
+    image: "/images/americano-dashboard.png",
+    tags: [
+      { name: "Angular", color: "angular" },
+      { name: "PrimeNG", color: "angular" },
+      { name: "TypeScript", color: "typescript" },
+      { name: "Tailwind", color: "tailwind" },
+    ],
+    liveUrl: "",
+    githubUrl: "https://github.com/yaman-ft/amirecano",
+    category: "Angular",
+  },
+  {
+    id: "portfolio",
+    title: "Developer Portfolio",
+    description: "Personal portfolio built with Next.js, TypeScript, and Framer Motion.",
+    longDescription: "A modern, futuristic portfolio website showcasing projects, skills, and experience. Built with Next.js 14 App Router, TypeScript, Tailwind CSS, and Framer Motion for smooth animations. Features dark mode, custom cursor, particles background, and glassmorphism design.",
+    image: "/images/portfolio.jpg",
+    tags: [
+      { name: "Next.js", color: "next" },
+      { name: "TypeScript", color: "typescript" },
+      { name: "Tailwind", color: "tailwind" },
+      { name: "React", color: "react" },
+    ],
+    liveUrl: "",
+    githubUrl: "https://github.com/yaman-ft",
+    category: "React",
+  },
+  {
+    id: "task-manager",
+    title: "Task Manager Pro",
+    description: "Full-stack task management app with Laravel backend and Vue.js frontend.",
+    longDescription: "A comprehensive task management application featuring user authentication, project organization, real-time collaboration, drag-and-drop Kanban boards, and automated notifications. Built with Laravel REST API backend and Vue.js SPA frontend.",
+    image: "/images/taskmanager.jpg",
+    tags: [
+      { name: "Laravel", color: "laravel" },
+      { name: "Vue.js", color: "vue" },
+      { name: "PHP", color: "php" },
+      { name: "MySQL", color: "mysql" },
+    ],
+    liveUrl: "",
+    githubUrl: "https://github.com/yaman-ft",
+    category: "Laravel",
+  },
+];
+
+export const experiences: Experience[] = [
+  {
+    id: "exp-1",
+    company: "Creative Solutions",
+    role: "Front-End Developer (Angular)",
+    period: "Apr 2025 – Present",
+    description: [
+      "Building scalable enterprise applications using Angular best practices and standalone components.",
+      "Developing complex UI components with PrimeNG, Angular Material, and custom design systems.",
+      "Applying RxJS extensively for reactive programming and asynchronous data handling.",
+      "Using NgRx for predictable and scalable state management across large applications.",
+    ],
+    icon: "💼",
+  },
+  {
+    id: "exp-2",
+    company: "Al-Bashaer Association",
+    role: "Software Engineer (Full Stack)",
+    period: "Jan 2024 – Aug 2024",
+    description: [
+      "Developed modern and responsive user interfaces using Vue.js and Tailwind CSS.",
+      "Contributed to back-end development using Laravel, implementing new features and improving existing logic.",
+      "Collaborated on internal systems and platforms aimed at improving organizational workflows.",
+      "Ensured clean UI/UX implementation and smooth front-end/back-end integration.",
+    ],
+    icon: "🏗️",
+  },
+];
+
+export const certifications: Certification[] = [
+  {
+    id: "cert-1",
+    name: "Angular – The Complete Guide",
+    issuer: "Udemy",
+    date: "2024",
+    url: "",
+  },
+  {
+    id: "cert-2",
+    name: "Laravel 10 Certification",
+    issuer: "Laravel",
+    date: "2024",
+    url: "",
+  },
+  {
+    id: "cert-3",
+    name: "Vue.js 3 Advanced Patterns",
+    issuer: "Vue Mastery",
+    date: "2023",
+    url: "",
+  },
+  {
+    id: "cert-4",
+    name: "React & Next.js Masterclass",
+    issuer: "Frontend Masters",
+    date: "2025",
+    url: "",
+  },
+  {
+    id: "cert-5",
+    name: "TypeScript Advanced Concepts",
+    issuer: "Pluralsight",
+    date: "2024",
+    url: "",
+  },
+  {
+    id: "cert-6",
+    name: "Docker & Kubernetes Bootcamp",
+    issuer: "Udemy",
+    date: "2023",
+    url: "",
+  },
+];
