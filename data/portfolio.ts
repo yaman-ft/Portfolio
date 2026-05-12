@@ -45,99 +45,110 @@ export const projects: Project[] = [
   {
     id: "announcer",
     title: "Announcer Market",
-    description: "Discount & Coupon Management Platform built with Angular and PrimeNG.",
-    longDescription: "A comprehensive platform for managing company discounts and coupons with secure workflows and user-friendly interfaces. Features include real-time coupon generation, usage tracking, analytics dashboard, and role-based access control.",
+    description:
+      "Discount & Coupon Management Platform built with Angular and PrimeNG.",
+    longDescription:
+      "A comprehensive platform for managing company discounts and coupons with secure workflows and user-friendly interfaces. Features include real-time coupon generation, usage tracking, analytics dashboard, and role-based access control.",
     image: "/images/announcer.jpg",
     tags: [
-      { name: "Angular", color: "angular" },
-      { name: "PrimeNG", color: "angular" },
-      { name: "TypeScript", color: "typescript" },
-      { name: "Laravel", color: "laravel" },
+      {name: "Angular", color: "angular"},
+      {name: "PrimeNG", color: "angular"},
+      {name: "TypeScript", color: "typescript"},
+      {name: "Laravel", color: "laravel"}
     ],
     liveUrl: "https://announcer.market/",
     githubUrl: "https://github.com/yaman-ft",
-    category: "Angular",
+    category: "Angular"
   },
   {
     id: "almotthadon",
     title: "ALMOTTHEDON",
-    description: "E-Commerce platform built with Vue.js and Vuex with full cart operations.",
-    longDescription: "A full-featured e-commerce website developed with Vue.js and Vuex state management. Features include product browsing, shopping cart CRUD operations, user authentication, order management, and responsive design.",
+    description:
+      "E-Commerce platform built with Vue.js and Vuex with full cart operations.",
+    longDescription:
+      "A full-featured e-commerce website developed with Vue.js and Vuex state management. Features include product browsing, shopping cart CRUD operations, user authentication, order management, and responsive design.",
     image: "/images/ecommerce.jpg",
     tags: [
-      { name: "Vue.js", color: "vue" },
-      { name: "Vuex", color: "vue" },
-      { name: "JavaScript", color: "typescript" },
-      { name: "Tailwind", color: "tailwind" },
+      {name: "Vue.js", color: "vue"},
+      {name: "Vuex", color: "vue"},
+      {name: "JavaScript", color: "typescript"},
+      {name: "Tailwind", color: "tailwind"}
     ],
     liveUrl: "https://commerce-ft.netlify.app/",
     githubUrl: "https://github.com/yaman-ft",
-    category: "Vue",
+    category: "Vue"
   },
   {
     id: "saas",
     title: "SaaS Platform",
-    description: "Multi-tenant delivery SaaS platform built with Nuxt.js and TypeScript.",
-    longDescription: "A Software-as-a-Service platform for delivery management built with Nuxt.js and TypeScript. Features multi-tenant architecture, real-time tracking, payment integration, and comprehensive admin dashboard.",
+    description:
+      "Multi-tenant delivery SaaS platform built with Nuxt.js and TypeScript.",
+    longDescription:
+      "A Software-as-a-Service platform for delivery management built with Nuxt.js and TypeScript. Features multi-tenant architecture, real-time tracking, payment integration, and comprehensive admin dashboard.",
     image: "/images/saas.jpg",
     tags: [
-      { name: "Nuxt", color: "vue" },
-      { name: "TypeScript", color: "typescript" },
-      { name: "Vuex", color: "vue" },
-      { name: "Tailwind", color: "tailwind" },
+      {name: "Nuxt", color: "vue"},
+      {name: "TypeScript", color: "typescript"},
+      {name: "Vuex", color: "vue"},
+      {name: "Tailwind", color: "tailwind"}
     ],
     liveUrl: "https://agent-69a6afc9cce3d6c70ec5616a--saas-ft.netlify.app/",
     githubUrl: "https://github.com/yaman-ft",
-    category: "Vue",
+    category: "Vue"
   },
   {
     id: "americano",
     title: "Americano Dashboard",
-    description: "Coffee shop management dashboard with Angular, PrimeNG, and Tailwind.",
-    longDescription: "A modern coffee shop management dashboard built with Angular 18, PrimeNG, and Tailwind CSS. Features real-time order tracking, revenue analytics, customer management, intuitive dark-themed UI, and top-selling product insights.",
+    description:
+      "Coffee shop management dashboard with Angular, PrimeNG, and Tailwind.",
+    longDescription:
+      "A modern coffee shop management dashboard built with Angular 18, PrimeNG, and Tailwind CSS. Features real-time order tracking, revenue analytics, customer management, intuitive dark-themed UI, and top-selling product insights.",
     image: "/images/americano-dashboard.png",
     tags: [
-      { name: "Angular", color: "angular" },
-      { name: "PrimeNG", color: "angular" },
-      { name: "TypeScript", color: "typescript" },
-      { name: "Tailwind", color: "tailwind" },
+      {name: "React / Next.js", color: "react"},
+      {name: "TypeScript", color: "typescript"},
+      {name: "Tailwind", color: "tailwind"}
     ],
-    liveUrl: "",
+    liveUrl: "https://amirecano.netlify.app/",
     githubUrl: "https://github.com/yaman-ft/amirecano",
-    category: "Angular",
+    category: "React"
   },
   {
     id: "portfolio",
     title: "Developer Portfolio",
-    description: "Personal portfolio built with Next.js, TypeScript, and Framer Motion.",
-    longDescription: "A modern, futuristic portfolio website showcasing projects, skills, and experience. Built with Next.js 14 App Router, TypeScript, Tailwind CSS, and Framer Motion for smooth animations. Features dark mode, custom cursor, particles background, and glassmorphism design.",
+    description:
+      "Personal portfolio built with Next.js, TypeScript, and Framer Motion.",
+    longDescription:
+      "A modern, futuristic portfolio website showcasing projects, skills, and experience. Built with Next.js 14 App Router, TypeScript, Tailwind CSS, and Framer Motion for smooth animations. Features dark mode, custom cursor, particles background, and glassmorphism design.",
     image: "/images/portfolio.jpg",
     tags: [
-      { name: "Next.js", color: "next" },
-      { name: "TypeScript", color: "typescript" },
-      { name: "Tailwind", color: "tailwind" },
-      { name: "React", color: "react" },
+      {name: "Next.js", color: "next"},
+      {name: "TypeScript", color: "typescript"},
+      {name: "Tailwind", color: "tailwind"},
+      {name: "React", color: "react"}
     ],
     liveUrl: "",
     githubUrl: "https://github.com/yaman-ft",
-    category: "React",
+    category: "React"
   },
   {
     id: "task-manager",
     title: "Task Manager Pro",
-    description: "Full-stack task management app with Laravel backend and Vue.js frontend.",
-    longDescription: "A comprehensive task management application featuring user authentication, project organization, real-time collaboration, drag-and-drop Kanban boards, and automated notifications. Built with Laravel REST API backend and Vue.js SPA frontend.",
+    description:
+      "Full-stack task management app with Laravel backend and Vue.js frontend.",
+    longDescription:
+      "A comprehensive task management application featuring user authentication, project organization, real-time collaboration, drag-and-drop Kanban boards, and automated notifications. Built with Laravel REST API backend and Vue.js SPA frontend.",
     image: "/images/taskmanager.jpg",
     tags: [
-      { name: "Laravel", color: "laravel" },
-      { name: "Vue.js", color: "vue" },
-      { name: "PHP", color: "php" },
-      { name: "MySQL", color: "mysql" },
+      {name: "Laravel", color: "laravel"},
+      {name: "Vue.js", color: "vue"},
+      {name: "PHP", color: "php"},
+      {name: "MySQL", color: "mysql"}
     ],
     liveUrl: "",
     githubUrl: "https://github.com/yaman-ft",
-    category: "Laravel",
-  },
+    category: "Laravel"
+  }
 ];
 
 export const experiences: Experience[] = [
