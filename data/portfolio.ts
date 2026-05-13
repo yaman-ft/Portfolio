@@ -147,24 +147,6 @@ export const projects: Project[] = [
     category: "React"
   },
   {
-    id: "announcer",
-    title: "Announcer Market",
-    description:
-      "Discount & Coupon Management Platform built with Angular and PrimeNG.",
-    longDescription:
-      "A comprehensive platform for managing company discounts and coupons with secure workflows and user-friendly interfaces. Features include real-time coupon generation, usage tracking, analytics dashboard, and role-based access control.",
-    image: "/images/announcer.jpg",
-    tags: [
-      {name: "Angular", color: "angular"},
-      {name: "PrimeNG", color: "angular"},
-      {name: "TypeScript", color: "typescript"},
-      {name: "Laravel", color: "laravel"}
-    ],
-    liveUrl: "https://announcer.market/",
-    githubUrl: "https://github.com/yaman-ft",
-    category: "Angular"
-  },
-  {
     id: "almotthadon",
     title: "ALMOTTHEDON",
     description:
@@ -183,6 +165,25 @@ export const projects: Project[] = [
     category: "Vue"
   },
   {
+    id: "announcer",
+    title: "Announcer Market",
+    description:
+      "Discount & Coupon Management Platform built with Angular and PrimeNG.",
+    longDescription:
+      "A comprehensive platform for managing company discounts and coupons with secure workflows and user-friendly interfaces. Features include real-time coupon generation, usage tracking, analytics dashboard, and role-based access control.",
+    image: "/images/announcer.jpg",
+    tags: [
+      {name: "Angular", color: "angular"},
+      {name: "PrimeNG", color: "angular"},
+      {name: "TypeScript", color: "typescript"},
+      {name: "Laravel", color: "laravel"}
+    ],
+    liveUrl: "https://announcer.market/",
+    githubUrl: "https://github.com/yaman-ft",
+    category: "Angular"
+  },
+
+  {
     id: "saas",
     title: "SaaS Platform",
     description:
@@ -200,7 +201,6 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/yaman-ft",
     category: "Vue"
   },
-  
 
   {
     id: "task-manager",
