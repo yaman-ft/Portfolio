@@ -142,7 +142,7 @@ export const projects: Project[] = [
       {name: "TypeScript", color: "typescript"},
       {name: "Tailwind", color: "tailwind"}
     ],
-    liveUrl: "https://amirecano.netlify.app/",
+    liveUrl: "https://amirecano.vercel.app/",
     githubUrl: "https://github.com/yaman-ft/amirecano",
     category: "React"
   },
@@ -160,7 +160,7 @@ export const projects: Project[] = [
       {name: "JavaScript", color: "typescript"},
       {name: "Tailwind", color: "tailwind"}
     ],
-    liveUrl: "https://commerce-ft.netlify.app/",
+    liveUrl: "https://e-commerce-ya5s.vercel.app/",
     githubUrl: "https://github.com/yaman-ft",
     category: "Vue"
   },
@@ -197,7 +197,7 @@ export const projects: Project[] = [
       {name: "Vuex", color: "vue"},
       {name: "Tailwind", color: "tailwind"}
     ],
-    liveUrl: "https://agent-69a6afc9cce3d6c70ec5616a--saas-ft.netlify.app/",
+    liveUrl: "https://saa-s-landpage-main.vercel.app/TaskOne/",
     githubUrl: "https://github.com/yaman-ft",
     category: "Vue"
   },
